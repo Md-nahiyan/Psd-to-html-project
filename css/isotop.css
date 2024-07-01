@@ -1,0 +1,95 @@
+/*jquwery plugin-area*/
+svg.radial-progress {
+  height: auto;
+  max-width: 270px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width:80%;
+}
+
+svg.radial-progress circle {
+  fill: rgba(0,0,0,0);
+  stroke:#fff;
+  stroke-dashoffset: 219.91148575129; 
+  stroke-width:4;
+}
+
+svg.radial-progress circle.incomplete { opacity:0.25; }
+
+svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+
+svg.radial-progress text {
+  fill: #fff;
+  text-anchor: middle;
+}
+
+svg.web circle {
+	fill: #fff;
+	stroke: #30bae7;
+	stroke-width:7;
+}
+
+svg.web circle.incomplete{
+  fill: rgba(20,30,40,50);
+	stroke:#dfe8ed;
+	stroke-width:8;
+}
+
+svg.web text {
+  fill: #3c4761;
+  text-anchor: middle;
+  font-weight: bold;
+}
+
+svg.html circle {
+	fill: #fff;
+	stroke: #d74680;
+	stroke-width:7;
+}
+
+svg.html circle.incomplete{
+	stroke:#dfe8ed;
+	stroke-width:8;
+}
+
+svg.html text {
+  fill: #3c4761;
+  fill: rgba(20,30,40,50);
+  text-anchor: middle;
+  font-weight: bold;
+}
+
+svg.grapic circle {
+	fill: #fff;
+	stroke:#15c7a8;
+	stroke-width:7;
+}
+
+svg.grapic circle.incomplete{
+	fill:#fff;
+	stroke:#dfe8ed;
+	stroke-width:8;
+}
+
+svg.grapic text {
+  fill: #3c4761;
+  text-anchor: middle;
+  font-weight: bold;
+}
+svg.ui circle {
+	fill: #fff;
+	stroke:#eb7d4b;
+	stroke-width:7;
+}
+
+svg.ui circle.incomplete{
+	fill:#fff;
+	stroke:#dfe8ed;
+	stroke-width:7;
+}
+
+svg.ui text {
+  fill: #3c4761;
+  text-anchor: middle;
+  font-weight: bold;
+}
